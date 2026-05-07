@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Wingman Bahrain | Menu</title>
+  <meta name="description"
+        content="Browse Wingman Bahrain menu including wings, sandwiches, boxes, drinks and sauces." />
+
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="main.js"></script>
+</head>
+
+<body data-page="menu">
+
+<header class="site-header">
+  <div class="container header-inner">
+
+    <div class="logo">
+      <img id="logo" src="imges/logo.png" alt="Wingman logo" />
+      <span class="logo-text">Wingman Bahrain</span>
+    </div>
+
+    <nav class="main-nav">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html" class="active">Menu</a></li>
+        <li><a href="offers.html">Offers</a></li>
+        <li><a href="locations.html">Locations</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <button class="btn btn-outline" id="themeToggle">Dark mode</button>
+      <a class="btn btn-primary cart-link">Cart <span id="cartCount">0</span></a>
+    </div>
+
+  </div>
+</header>
+
+<main class="section">
+  <div class="container">
+
+    <header class="section-header">
+      <h1>Our Menu</h1>
+      <p>Explore our wings, meals, drinks and sauces.</p>
+    </header>
+
+    <!-- FILTERS -->
+    <div class="menu-filters">
+      <button class="filter-btn active" data-category="all">All</button>
+      <button class="filter-btn" data-category="wings">Wings</button>
+      <button class="filter-btn" data-category="sandwiches">Sandwiches</button>
+      <button class="filter-btn" data-category="boxes">Boxes</button>
+      <button class="filter-btn" data-category="sides">Sides</button>
+      <button class="filter-btn" data-category="drinks">Drinks</button>
+      <button class="filter-btn" data-category="sauces">Sauces</button>
+    </div>
+<!-- ===== AUDIO SECTION ===== -->
+<section class="section">
+  <div class="container">
+
+    <h2>Wingman Kitchen Sounds</h2>
+    <p>Experience the vibe of our kitchen.</p>
+
+    <audio controls>
+      <source src="audio/music.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+  </div>
+</section>
+<br>
+    <div class="card-grid menu-grid">
+
+      <!-- WINGS (5) -->
+      <article class="card menu-item fade-anim" data-category="wings">
+        <img src="imges/8 pcs wings.jpg" class="reflect rotate lightbox-img">
+        <h3>Wings – 8 Pcs</h3><p>8 wings with sauce.</p><p class="price">BD 1.800</p>
+        <button class="btn btn-small add-to-cart">Add</button>
+      </article>
+
+      <article class="card menu-item fade-anim" data-category="wings">
+        <img src="imges/Wingman Wings - 16 Pcs.jpg" class="reflect rotate lightbox-img">
+        <h3>Wings – 16 Pcs</h3><p>16 wings with sauce.</p><p class="price">BD 3.400</p>
+        <button class="btn btn-small add-to-cart">Add</button>
+      </article>
+
+      <article class="card menu-item fade-anim" data-category="wings">
+        <img src="imges/Wingman Wings - 24 Pcs.jpg" class="reflect rotate lightbox-img">
+        <h3>Wings – 24 Pcs</h3><p>24 wings with sauce.</p><p class="price">BD 4.800</p>
+        <button class="btn btn-small add-to-cart">Add</button>
+      </article>
+
+      <article class="card menu-item fade-anim" data-category="wings">
+        <img src="imges/50 pcs wings.jpg" class="reflect rotate lightbox-img">
+        <h3>Wings – 50 Pcs</h3><p>Sharing size.</p><p class="price">BD 8.800</p>
+        <button class="btn btn-small add-to-cart">Add</button>
+      </article>
+
+      <article class="card menu-item fade-anim" data-category="wings">
+        <img src="imges/Wingman Wings - 100 Pcs.jpg" class="reflect rotate lightbox-img">
+        <h3>Wings – 100 Pcs</h3><p>Party size.</p><p class="price">BD 15.600</p>
+        <button class="btn btn-small add-to-cart">Add</button>
+      </article>
+
+      <!-- SANDWICHES (4) -->
+      <article class="card menu-item fade-anim" data-category="sandwiches">
+        <img src="imges/Classic Wrap.jpg" class="reflect rotate lightbox-img">
+        <h3>Classic Wrap</h3><p>Crispy chicken wrap.</p><p class="price">BD 1.800</p>
+        <button class="btn btn-small add-to-cart">Add</button>
+      </article>
+
+      <article class="card menu-item fade-anim" data-category="sandwiches">
+        <img src="imges/Spicy Wrap.jpg" class="reflect rotate lightbox-img">
+        <h3>Spicy Wrap</h3><p>Spicy crispy chicken.</p><p class="price">BD 1.800</p>
+        <button class="btn btn-small add-to-cart">Add</button>
+      </article>
+
+      <article class="card menu-item fade-anim" data-category="sandwiches">
+        <img src="imges/Buffalo Crispy Chicken Sandwich.jpg" class="reflect rotate lightbox-img">
+        <h3>Buffalo Sandwich</h3><p>Buffalo sauce.</p><p class="price">BD 2.800</p>
+        <button class="btn btn-small add-to-cart">Add</button>
+      </article>
+
+      <article class="card menu-item fade-anim" data-category="sandwiches">
+        <img src="imges/Triplets.jpg" class="reflect rotate lightbox-img">
+        <h3>Triplets</h3><p>3 mini sliders.</p><p class="price">BD 3.800</p>
+        <button class="btn btn-small add-to-cart">Add</button>
+      </article>
+
+      <!-- BOXES (4) -->
+      <article class="card menu-item fade-anim" data-category="boxes">
+        <img src="imges/Duo Box.jpg" class="reflect rotate lightbox-img">
+        <h3>Duo Box</h3><p>2 sandwiches + wings.</p><p class="price">BD 5.900</p>
+        <button class="btn btn-small add-to-cart">Add</button>
+      </article>
+
+      <article class="card menu-item fade-anim" data-category="boxes">
+        <img src="imges/Family Box.jpg" class="reflect rotate lightbox-img">
+        <h3>Family Box</h3><p>Family meal.</p><p class="price">BD 13.500</p>
+        <button class="btn btn-small add-to-cart">Add</button>
+      </article>
+
+      <article class="card menu-item fade-anim" data-category="boxes">
+        <img src="imges/SOLO Box..jpg" class="reflect rotate lightbox-img">
+        <h3>Solo Box</h3><p>Single meal.</p><p class="price">BD 4.500</p>
+        <button class="btn btn-small add-to-cart">Add</button>
+      </article>
+
+      
+
+      <!-- SIDES (4) -->
+      <article class="card menu-item fade-anim" data-category="sides">
+        <img src="imges/Curly Fries.jpg" class="reflect rotate lightbox-img">
+        <h3>Curly Fries</h3><p>Crispy fries.</p><p class="price">BD 1.200</p>
+        <button class="btn btn-small add-to-cart">Add</button>
+      </article>
+
+      <article class="card menu-item fade-anim" data-category="sides">
+        <img src="imges/Cheese Fries.jpg" class="reflect rotate lightbox-img">
+        <h3>Cheese Fries</h3><p>With melted cheese.</p><p class="price">BD 1.800</p>
+        <button class="btn btn-small add-to-cart">Add</button>
+      </article>
+
+      <article class="card menu-item fade-anim" data-category="sides">
+        <img src="imges/Onion Rings.jpg" class="reflect rotate lightbox-img">
+        <h3>Onion Rings</h3><p>Crispy rings.</p><p class="price">BD 1.500</p>
+        <button class="btn btn-small add-to-cart">Add</button>
+      </article>
+
+      <article class="card menu-item fade-anim" data-category="sides">
+        <img src="imges/Chicken & Rice.jpg" class="reflect rotate lightbox-img">
+        <h3>Chicken & Rice</h3><p>Grilled chicken.</p><p class="price">BD 2.200</p>
+        <button class="btn btn-small add-to-cart">Add</button>
+      </article>
+
+      <!-- DRINKS (4) -->
+      <article class="card menu-item fade-anim" data-category="drinks">
+        <img src="imges/7up.webp">
+        <h3>7up</h3><p>7up drink</p><p class="price">BD 0.500</p>
+        <button class="btn btn-small add-to-cart">Add</button>
+      </article>
+
+      <article class="card menu-item fade-anim" data-category="drinks">
+        <img src="imges/Diet_Cola_Kinza-removebg-preview.png">
+        <h3>Diet Coke</h3><p>No sugar.</p><p class="price">BD 0.500</p>
+        <button class="btn btn-small add-to-cart">Add</button>
+      </article>
+
+      <article class="card menu-item fade-anim" data-category="drinks">
+        <img src="imges/FURATA_WATER_500_ML-removebg-preview.png">
+        <h3>Water</h3><p>Bottled.</p><p class="price">BD 0.300</p>
+        <button class="btn btn-small add-to-cart">Add</button>
+      </article>
+
+      <article class="card menu-item fade-anim" data-category="drinks">
+        <img src="imges/lipton ice tea.webp">
+        <h3>Iced Tea</h3><p>Lemon flavor.</p><p class="price">BD 0.700</p>
+        <button class="btn btn-small add-to-cart">Add</button>
+      </article>
+
+      <!-- SAUCES (5) -->
+      <article class="card menu-item fade-anim" data-category="sauces">
+        <img src="imges/Ranch_Sauce-removebg-preview.png">
+        <h3>Ranch Sauce</h3><p>Creamy dip.</p><p class="price">BD 0.300</p>
+        <button class="btn btn-small add-to-cart">Add</button>
+      </article>
+
+      
+      <article class="card menu-item fade-anim" data-category="sauces">
+        <img src="imges/garlic_sacue_-removebg-preview.png">
+        <h3>Garlic Sauce</h3><p>Rich garlic.</p><p class="price">BD 0.300</p>
+        <button class="btn btn-small add-to-cart">Add</button>
+      </article>
+
+      <article class="card menu-item fade-anim" data-category="sauces">
+        <img src="imges/bbq-removebg-preview.png">
+        <h3>BBQ Sauce</h3><p>Smoky.</p><p class="price">BD 0.300</p>
+        <button class="btn btn-small add-to-cart">Add</button>
+      </article>
+
+      <article class="card menu-item fade-anim" data-category="sauces">
+        <img src="imges/Honey_Mustard-removebg-preview.png">
+        <h3>Honey Mustard</h3><p>Sweet & tangy.</p><p class="price">BD 0.300</p>
+        <button class="btn btn-small add-to-cart">Add</button>
+      </article>
+
+
+    </div>
+  </div>
+</main>
+
+<div id="lightbox" aria-hidden="true">
+  <img id="lightbox-img" alt="Preview">
+</div>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p> <span id="year"></span> Wingman Bahrain. All rights reserved.</p>
+
+    <div class="footer-social">
+      <a href="https://www.instagram.com/wingman_bh/?hl=en">
+        <img src="imges/instagram logo.png" alt="Instagram" width="40">
+      </a>
+      <a href="https://www.facebook.com/wingmanbh/">
+        <img src="imges/facebook logo.png" alt="Facebook" width="40">
+      </a>
+    </div>
+  </div>
+
+  <button id="scrollTopBtn">↑</button>
+</footer>
+
+
+</body>
+</html> 

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Wingman Bahrain | Contact Us</title>
+  <meta
+    name="description"
+    content="Contact Wingman Bahrain for questions, feedback or support."
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="main.js"></script>
+</head>
+
+<body data-page="contact">
+
+<!-- ===== HEADER ===== -->
+<header class="site-header">
+  <div class="container header-inner">
+
+    <div class="logo" aria-label="Wingman logo">
+      <img src="imges/logo.png" alt="Wingman logo" id="logo" />
+      <span class="logo-text">Wingman Bahrain</span>
+    </div>
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="offers.html">Offers</a></li>
+        <li><a href="locations.html">Locations</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <button class="btn btn-outline" id="themeToggle">Dark mode</button>
+      <a href="menu.html" class="btn btn-primary cart-link">
+        Cart <span id="cartCount">0</span>
+      </a>
+    </div>
+
+  </div>
+</header>
+
+<!-- ===== MAIN ===== -->
+<main class="section">
+  <div class="container contact-layout">
+
+    <!-- ===== CONTACT FORM ===== -->
+    <section class="left-side fade-anim" aria-labelledby="contactHeading">
+      <h1 id="contactHeading">Contact Us</h1>
+      <p>
+        Have a question about your order or our menu?
+        Send us a message and we’ll get back to you as soon as possible.
+      </p>
+
+      <form id="contactForm" novalidate>
+
+        <div class="form-group">
+          <label for="name">Name <span aria-hidden="true">*</span></label>
+          <input type="text" id="name" name="name" required />
+          <small class="error-message" aria-live="polite"></small>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email <span aria-hidden="true">*</span></label>
+          <input type="email" id="email" name="email" required />
+          <small class="error-message" aria-live="polite"></small>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message <span aria-hidden="true">*</span></label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <small class="error-message" aria-live="polite"></small>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p id="formSuccess" class="form-success" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <!-- ===== SIDE CONTENT ===== -->
+    <aside class="right-side fade-anim">
+      <div class="contact-details">
+        <h2>Branch Contact</h2>
+        <p><strong>Address:</strong> Manama, Bahrain</p>
+        <p><strong>Phone:</strong> +973 1234 5678</p>
+        <p><strong>Email:</strong> info@wingmanbh.com</p>
+      </div>
+
+     
+    </aside>
+
+  </div>
+
+  <!-- ===== SUPPORT INFORMATION ===== -->
+  <section class="section fade-anim container">
+    <h2>How Can We Help You?</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Order Support</h3>
+        <p>Help with orders, delivery issues, or missing items.</p>
+      </div>
+      <div class="card">
+        <h3>Menu & Allergies</h3>
+        <p>Information about ingredients and dietary concerns.</p>
+      </div>
+      <div class="card">
+        <h3>Feedback</h3>
+        <p>Share your experience and help us improve.</p>
+      </div>
+      <div class="card">
+        <h3>Business Enquiries</h3>
+        <p>Partnerships, catering, or collaboration opportunities.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BUSINESS HOURS ===== -->
+  <section class="section fade-anim container">
+    <h2>Business Hours</h2>
+    <p>
+      <strong>Saturday – Thursday:</strong> 12:00 PM – 12:00 AM<br />
+      <strong>Friday:</strong> 2:00 PM – 1:00 AM
+    </p>
+  </section>
+
+  <!-- ===== ACCORDION FAQ (NEW) ===== -->
+  <section class="section fade-anim container faq-accordion">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+      <input type="checkbox" id="faq1">
+      <label for="faq1" class="faq-question">How long does delivery take?</label>
+      <div class="faq-answer">
+        Delivery usually takes between 30–45 minutes depending on location.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <input type="checkbox" id="faq2">
+      <label for="faq2" class="faq-question">Can I change my order after submitting?</label>
+      <div class="faq-answer">
+        Changes can be requested shortly after placing the order.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <input type="checkbox" id="faq3">
+      <label for="faq3" class="faq-question">Do you offer spicy options?</label>
+      <div class="faq-answer">
+        Yes, several spice levels are available.
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FINAL CTA ===== -->
+  <section class="section fade-anim container">
+    <h2>Still Have Questions?</h2>
+    <p>
+      Our team is always ready to help.
+      Reach out using the form above and we’ll respond as quickly as possible.
+    </p>
+  </section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p><span id="year"></span> Wingman Bahrain. All rights reserved.</p>
+
+    <div class="footer-social" aria-label="Social media links">
+      <a href="https://www.instagram.com/wingman_bh/?hl=en">
+        <img src="imges/instagram logo.png" alt="Instagram" width="40" />
+      </a>
+      <a href="https://www.facebook.com/wingmanbh/">
+        <img src="imges/facebook logo.png" alt="Facebook" width="40" />
+      </a>
+    </div>
+  </div>
+
+  <button id="scrollTopBtn" aria-label="Scroll to top">↑</button>
+</footer>
+
+</body>
+</html>
